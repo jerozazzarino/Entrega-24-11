@@ -1,0 +1,38 @@
+/* Nosotros */
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 4em;
+    padding: 20px;
+    text-align: center;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: center;
+    padding: 20px 90px;
+}
+
+.parrafoIzquierdo, .parrafoDerecho {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.5em;
+    margin: 20px;
+    width: 50%;
+}
+
+.imagenRight {
+    height: 300px;
+    width: 400px;
+}
+
+.imagenLeft {
+    height: 300px;
+    width: 400px;
+}
+
+.parrafoIzquierdo {
+    padding-right: 10px;
+}
+
+.parrafoDerecho {
+    padding-left: 10px;
+}
