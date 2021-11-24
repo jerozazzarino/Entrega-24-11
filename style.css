@@ -148,7 +148,6 @@ iframe {
       -ms-flex-pack: end;
           justify-content: flex-end;
   list-style: none;
-  padding-bottom: 10px;
   text-decoration: none;
   width: 100%;
 }
@@ -298,6 +297,7 @@ h1 {
 /* contacto */
 .main__div--formContainer {
   clear: both;
+  text-align: center;
   width: 500px;
 }
 
