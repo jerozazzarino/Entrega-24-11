@@ -19,11 +19,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">        <!-- link al archivo de estilos -->
 </head>
 <body>
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light header__nav">
+        <nav class="navbar navbar-expand-lg navbar-light header__nav topnav">
             <svg width="400" height="80" viewBox="0 0 909 130" fill="none" xmlns="http://www.w3.org/2000/svg" alt="logo de Zero53D">
                 <path d="M170.555 14.8594C203.628 25.9271 220.164 38.1667 220.164 51.5781C220.164 60.9531 211.375 70.3281 193.797 79.7031C183.641 85.0417 170.75 90.25 155.125 95.3281H153.172V106.266C160.073 106.396 167.56 108.544 175.633 112.711C183.706 117.008 190.997 119.156 197.508 119.156C201.674 119.156 205.581 118.57 209.227 117.398C211.701 116.617 215.216 115.055 219.773 112.711C227.977 108.544 235.398 106.396 242.039 106.266V95.3281C238.003 95.3281 234.161 95.9141 230.516 97.0859C228.042 97.8672 224.461 99.4948 219.773 101.969C215.216 104.312 211.701 105.875 209.227 106.656C205.841 107.698 201.935 108.219 197.508 108.219C192.82 108.219 188.849 107.698 185.594 106.656C183.25 105.875 180.125 104.443 176.219 102.359C171.922 100.016 168.797 98.4531 166.844 97.6719C216.453 77.8802 241.258 60.1068 241.258 44.3516C241.258 30.6797 221.336 20.5885 181.492 14.0781L170.555 14.8594Z" fill="black"/>
                 <path d="M276.023 14.6641C277.977 17.2682 279.734 19.3516 281.297 20.9141C281.688 20.5234 283.12 18.6354 285.594 15.25L295.359 17.7891C292.885 20.263 290.607 23.0625 288.523 26.1875C292.56 28.5312 296.792 29.7031 301.219 29.7031C310.724 29.7031 320.49 24.6901 330.516 14.6641V25.6016C327.911 36.6693 322.573 42.5938 314.5 43.375C306.427 44.1562 296.531 40.4453 284.812 32.2422C280.255 40.5755 276.805 50.9922 274.461 63.4922C283.185 57.8932 290.997 55.0938 297.898 55.0938C307.013 55.0938 314.891 59.7161 321.531 68.9609V79.8984C309.161 70.5234 298.419 65.8359 289.305 65.8359C283.185 65.8359 277.781 67.9844 273.094 72.2812C272.052 81.526 271.531 90.7057 271.531 99.8203C276.479 103.466 281.818 105.289 287.547 105.289C297.182 105.289 307.013 100.276 317.039 90.25V101.383C314.435 112.19 309.161 117.984 301.219 118.766C293.146 119.547 283.315 116.031 271.727 108.219V108.609L268.992 117.398C267.43 117.789 265.867 117.984 264.305 117.984C254.409 117.984 248.875 111.93 247.703 99.8203C246.01 81.3307 255.841 56.9167 277.195 26.5781C276.935 26.5781 276.74 26.4479 276.609 26.1875L276.023 25.7969V14.6641Z" fill="black"/>
@@ -45,29 +46,12 @@
                 <path d="M29.2398 111.372C27.8326 110.063 26.645 108.586 25.6262 107.083C19.3924 112.203 16.1354 114.68 9.34439 119.43C6.58405 121.232 5.80084 124.82 7.7334 127.482C8.92413 129.118 10.879 130 12.8625 130C14.0978 130 15.3458 129.656 16.4219 128.937C23.9579 123.588 27.5588 120.793 34.4198 115.008C33.6716 114.597 32.9234 114.186 32.1912 113.69C31.1628 112.989 30.1599 112.228 29.2398 111.372Z" fill="#010002"/>
                 <path d="M72.2335 79.4098C87.7035 63.3858 101.149 45.286 113.355 26.8488C113.938 25.97 114.505 25.1072 115.065 24.2667C118.392 19.8699 119.745 13.1426 121.334 7.9435C122.789 3.18057 123.33 0.353376 123.333 0.324722C123.043 1.84975 119.436 4.64192 118.478 5.70849C113.763 10.9426 109.586 16.2054 105.323 21.6879C103.049 25.1072 100.681 28.8768 97.9298 32.6942C87.8691 46.6359 76.9742 59.976 65.0032 72.2654C62.6376 74.6914 60.2211 77.0729 57.7664 79.4129C51.1919 85.6786 44.3309 91.6546 37.0623 97.172C36.5466 97.5637 36.0085 97.9139 35.4864 98.2959C33.7926 97.0956 32.0479 96.1119 30.4178 95.4783C29.0042 94.9243 27.7211 94.5709 26.7628 94.3799C25.8141 94.1825 25.1932 94.1475 25.1932 94.1475C25.1932 94.1475 25.2282 94.7683 25.4256 95.7171C25.6135 96.6786 25.9701 97.9553 26.5209 99.3689C26.9952 100.588 27.6766 101.868 28.4725 103.145C28.5744 103.314 28.7049 103.47 28.8132 103.632C29.8033 105.154 30.9527 106.657 32.2962 108.006C33.1781 108.888 34.1333 109.678 35.1107 110.423C35.8016 110.948 36.5147 111.391 37.2215 111.837C38.4728 112.626 39.724 113.323 40.9211 113.788C42.3379 114.336 43.6209 114.689 44.5792 114.877C45.528 115.074 46.152 115.106 46.152 115.106C46.152 115.106 46.1202 114.485 45.9228 113.533C45.7349 112.575 45.3815 111.289 44.8339 109.878C44.2672 108.424 43.4394 106.876 42.4206 105.361C50.4151 99.6618 57.9097 93.342 65.0032 86.5828C67.4515 84.2332 69.8743 81.8517 72.2335 79.4098Z" fill="#010002"/>
             </svg>
-            <ul class="navbar-nav nav__ul">
+            <ul id="myLinks" class="navbar-nav nav__ul">
                 <li  class="nav-item">
                     <a class="nav-link nav__a--hover" href="index.html">Inicio</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle nav__a--hover" href="productos.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">Productos</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li class="nav-item">
-                            <a class="nav-link nav__a--hover" href="productos.html">Todos los Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav__a--hover" href="/productosSubMenu/componentes.html">Componentes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav__a--hover" href="/productosSubMenu/filamentos.html">Filamentos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav__a--hover" href="/productosSubMenu/impresoras.html">Impresoras 3D</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav__a--hover" href="/productosSubMenu/impresiones.html">Impresiones</a>
-                        </li>
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link nav__a--hover" href="productos.html">Productos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav__a--hover" href="ofertas.html">¡OFERTAS!</a>
@@ -79,6 +63,9 @@
                     <a class="nav-link nav__a--hover" href="contacto.html">Contacto</a>
                 </li>
             </ul>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </nav>
     </header>
     <main class="mainTodo">
@@ -97,5 +84,6 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
