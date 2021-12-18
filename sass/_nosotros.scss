@@ -12,11 +12,18 @@ h1 {
     padding: 20px 90px;
 }
 
+.nos1 {
+    flex-direction: row-reverse;
+}
+
+.texto {
+    height: 300px;
+    width: 400px;
+}
+
 .parrafoIzquierdo, .parrafoDerecho {
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 1.5em;
-    margin: 20px;
-    width: 50%;
+    font-size: 1.3em;
 }
 
 .imagenRight {

@@ -63,6 +63,15 @@ iframe {
     padding-top: 30px;
 }
 
+.card {
+    background-color: white;
+    border-radius: 0%;
+    height: 100px;
+    justify-content: space-around;
+    width: 200px;
+    margin: auto;
+}
+
 .items {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr; 
@@ -89,10 +98,6 @@ iframe {
 .itemImg:hover {
     filter: drop-shadow(5px 5px 5px black);
     transition: filter 2s;
-}
-
-.price {
-    margin-top: 10px;
 }
 
 @import "sass/_nav.scss";

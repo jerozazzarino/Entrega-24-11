@@ -66,6 +66,15 @@
             "."
             "."
             ".";
-        padding: 0 0;
+    }
+
+    .nosotros {
+        flex-direction: column;
+    }
+
+    .tamañoNosotros {
+        padding: 20px;
+        padding-top: 0;
+        flex-direction: column;
     }
 }

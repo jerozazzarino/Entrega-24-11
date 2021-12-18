@@ -28,6 +28,10 @@
         text-decoration: none;
     }
 
+    a.icon {
+        display: none;
+    }
+
     .nav__a--hover:hover {
         text-decoration: underline;
     }
