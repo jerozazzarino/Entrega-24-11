@@ -63,43 +63,6 @@ iframe {
     padding-top: 30px;
 }
 
-.card {
-    background-color: white;
-    border-radius: 0%;
-    height: 100px;
-    justify-content: space-around;
-    width: 200px;
-    margin: auto;
-}
-
-.items {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr; 
-    gap: 50px 50px;
-    grid-template-areas: 
-        ". . .";
-    justify-content: center;
-    padding: 50px 200px;
-    text-align: center;
-}
-
-.caract {
-    flex-direction: column;
-    font-style: oblique;            
-    list-style: none;
-}
-
-.itemImg {
-    height: 200px;
-    width: 200px;
-}
-
-.itemImg:hover {
-    filter: drop-shadow(5px 5px 5px black);
-    transition: filter 2s;
-}
-
 @import "sass/_nav.scss";
 @import "sass/_nosotros.scss";
 @import "sass/_items.scss";

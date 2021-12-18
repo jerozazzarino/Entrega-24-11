@@ -77,55 +77,6 @@ iframe {
   padding-top: 30px;
 }
 
-.card {
-  background-color: white;
-  border-radius: 0%;
-  height: 100px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 200px;
-  margin: auto;
-}
-
-.items {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
-  gap: 50px 50px;
-      grid-template-areas: ". . .";
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 50px 200px;
-  text-align: center;
-}
-
-.caract {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  font-style: oblique;
-  list-style: none;
-}
-
-.itemImg {
-  height: 200px;
-  width: 200px;
-}
-
-.itemImg:hover {
-  -webkit-filter: drop-shadow(5px 5px 5px black);
-          filter: drop-shadow(5px 5px 5px black);
-  -webkit-transition: -webkit-filter 2s;
-  transition: -webkit-filter 2s;
-  transition: filter 2s;
-  transition: filter 2s, -webkit-filter 2s;
-}
-
 .header__nav {
   background-color: #222;
   display: -webkit-box;
@@ -242,26 +193,10 @@ h1 {
 }
 
 /* Ofertas */
-.items {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-  gap: 50px 50px;
-      grid-template-areas: ". . ." ". . ." ". . .";
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 50px 200px;
-  text-align: center;
-}
-
 .card {
   background-color: white;
   border-radius: 0%;
-  height: 100px;
+  height: 150px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 200px;
